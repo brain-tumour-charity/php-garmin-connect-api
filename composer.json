@@ -30,6 +30,6 @@
         }
     },
     "require-dev": {
-        "vlucas/phpdotenv": "^4.2"
+        "vlucas/phpdotenv": "^5.4"
     }
 }
