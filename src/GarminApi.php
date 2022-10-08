@@ -368,7 +368,18 @@ class GarminApi extends Server {
     public function backfillSleepSummary(TokenCredentials $tokenCredentials, array $params): void {
         $this->backfill($tokenCredentials, 'sleep', $params);
     }
-
+    
+    /**
+     * Send request for Heart Rate Variability Data
+     * 
+     * @param TokenCredentials $tokenCredentials
+     * @param array $params - (uploadStartTimeInSeconds, uploadEndTimeInSeconds)
+     * @return void
+     */
+    public function backfillHRV(TokenCredentials $tokenCredentials, array $params): void {
+        $this->backfill($tokenCredentials, "hrv", $params);
+    }
+    
     /**
      * send request to back fill body composition summary
      *
