@@ -154,6 +154,9 @@ $server->backfillActivityDetailsSummary($tokenCredentials, $params);
 // Backfill sleep summaries
 $server->backfillSleepSummary($tokenCredentials, $params);
 
+// Backfill heart rate variability summaries
+$server->backfillHVR($tokenCredentials, $params)
+
 // Backfill body composition summaries
 $server->backfillBodyCompositionSummary($tokenCredentials, $params);
 
