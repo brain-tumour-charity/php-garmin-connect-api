@@ -1,7 +1,7 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [Description](#description)
-- [Installtion](#installtion)
+- [Installation](#installation)
 - [Example](#example)
 - [Usage](#usage)
   - [Get authorization link](#get-authorization-link)
@@ -16,7 +16,7 @@
 # Description
 PHP library to connect and use garmin wellness api
 
-# Installtion
+# Installation
 ```
 composer require stoufa06/php-garmin-connect-api
 ```
